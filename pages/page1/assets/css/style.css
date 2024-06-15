@@ -74,7 +74,7 @@ body {
     justify-content: space-between;
     padding: .7rem 5vw;
     background:aliceblue;
-    background-image: url(/assets/img/design-1-bg.png);
+    background-image: url(../../../../assets/img/design-1-bg.png);
     background-size: cover;
 }
 
@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 5rem;
-    background-image: url(/assets/img/design-1-bg.png);
+    background-image: url(../../../../assets/img/design-1-bg.png);
     background-size: cover;
 }
 
@@ -165,7 +165,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-2-bg.png);
+    background-image: url(../../../../assets/img/design-2-bg.png);
     background-size: cover;
 }
 
@@ -206,7 +206,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-2-bg.png);
+    background-image: url(../../../../assets/img/design-2-bg.png);
     background-size: cover;
 }
 
@@ -291,7 +291,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-3-bg.png);
+    background-image: url(../../../../assets/img/design-3-bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -325,7 +325,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-3-bg.png);
+    background-image: url(../../../../assets/img/design-3-bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -417,7 +417,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-4-bg.png);
+    background-image: url(../../../../assets/img/design-4-bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -453,7 +453,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-4-bg.png);
+    background-image: url(../../../../assets/img/design-4-bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -526,7 +526,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .7rem 5vw;
-    background-image: url(/assets/img/design-5-bg.png);
+    background-image: url(../../../../assets/img/design-5-bg.png);
     background-position: center;
     background-size: cover;
 
@@ -567,7 +567,7 @@ a, .left-navigation, .navigation-design5 {
     display: flex;
     justify-content: space-between;
     padding: .7rem 4vw;
-    background-image: url(/assets/img/design-5-bg.png);
+    background-image: url(../../../../assets/img/design-5-bg.png);
     background-position: center;
     background-size: cover;
 }
