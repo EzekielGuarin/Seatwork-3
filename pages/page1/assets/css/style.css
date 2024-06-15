@@ -77,6 +77,7 @@ body {
     background:aliceblue;
     background-image: url(../../../../assets/img/design-1-bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 .primo-gem {
@@ -97,6 +98,7 @@ body {
     height: 5rem;
     background-image: url(../../../../assets/img/design-1-bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -151,8 +153,8 @@ body {
 
 @keyframes example {
     0% {left: 0px; top: 0px;}
-    25% {left: 1000px; top: 0px;}
-    50% {left: 1000px; top: 0px;}
+    25% {left: 550px; top: 0px;}
+    50% {left: 550px; top: 0px;}
     75% {left: 0px; top: 0px;}
     100% {left: 0px; top: 0px;}
 }
@@ -168,6 +170,7 @@ body {
     padding: .7rem 5vw;
     background-image: url(../../../../assets/img/design-2-bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 .profile {
@@ -209,6 +212,7 @@ body {
     padding: .7rem 5vw;
     background-image: url(../../../../assets/img/design-2-bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 .pacman-animation {
@@ -261,10 +265,10 @@ body {
 
 @keyframes pacman {
     0% {left: 0px; top: 0px;}
-    25% {left: 750px; top: 0px;}
-    50% {left: 750px; top: 0px;}
-    75% {left: -750px; top: 0px;}
-    100% {left: -750px; top: 0px;}
+    25% {left: 550px; top: 0px;}
+    50% {left: 550px; top: 0px;}
+    75% {left: -550px; top: 0px;}
+    100% {left: -550px; top: 0px;}
 
     0% {
         transform: rotate(0);
@@ -477,9 +481,9 @@ body {
     }
 @keyframes roblox {
     0% {left: 0px; top: 0px;}
-    25% {left: 300px; top: 0px;}
-    50% {left: 300px; top: 0px;}
-    75% {left: 300px; top: 0px;}
+    25% {left: 125px; top: 0px;}
+    50% {left: 125px; top: 0px;}
+    75% {left: 125px; top: 0px;}
     100% {left: 0px; top: 0px;}
 
         0% {
@@ -564,7 +568,7 @@ a, .left-navigation, .navigation-design5 {
 
 .design-five-animation {
     width: 90vw;
-    height: 5vw;
+    height: 6.4vw;
     display: flex;
     justify-content: space-between;
     padding: .7rem 4vw;
@@ -578,7 +582,7 @@ a, .left-navigation, .navigation-design5 {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 49rem;
+    margin-left: 36rem;
 }
 
 .navigation-content-left {
