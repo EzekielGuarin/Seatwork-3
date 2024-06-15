@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-SEATWORKD-3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  <p> A Header and Footer display website with static and animated designs using pure HTML and CSS
 </div>
 
 <br />
@@ -60,9 +60,9 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
+- What is the project - This project is about displaying a 5 different static and animated header and footer designs using HTML and CSS
+- Whats the purpose - The purpose of this is to show a distinct and variety designs of header and footer 
+- What are key components - 
 - What technology used and how it is used
 
 ### Key Components
