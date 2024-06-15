@@ -59,9 +59,9 @@
 <!-- The following are just sample -->
 Description of the project in details.
 <!-- How to navigate the webpage -->
-1.The first page is the landing page, there are two navigation buttons which is HEADER and FOOTER, this will navigate the user to which page they want to go.
-2.Header page - this page displays 10 header designs, 5 static and 5 animated. On this webpage you can also go back to the landing page at the top of the webpage by clicking "Landing Page".
-3.Footer - this page also displays 10 header designs, 5 static and 5 animated. 
+1. The first page is the landing page, there are two navigation buttons which is HEADER and FOOTER, this will navigate the user to which page they want to go.
+2. Header page - this page displays 10 header designs, 5 static and 5 animated. On this webpage you can also go back to the landing page at the top of the webpage by clicking "Landing Page".
+3. Footer - this page also displays 10 header designs, 5 static and 5 animated. 
 
 Guiding Question:
 - What is the project - This project is about displaying a 5 different static and animated header and footer designs using HTML and CSS
@@ -71,15 +71,12 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
