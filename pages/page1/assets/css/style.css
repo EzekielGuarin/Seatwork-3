@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    padding: 1rem 5vw;
+    gap: 1rem;
+    text-align: flex-end;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.header-title h1 {
+    font-size:3rem;
+    padding: 2rem;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+   
+}
+
+#myVideo {
+    position: fixed;
+    right: 1;
+    bottom: 1;
+    z-index: -1;
+  }
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.return {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    color: blue;
+}
+/* DESIGN ONE: STATIC */
+
+.design-one {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background:aliceblue;
+    background-image: url(/assets/img/design-1-bg.png);
+    background-size: cover;
+}
+
+.primo-gem {
+        height: 60px;
+    }
+
+.navigation .navigation-content {
+    color: white;
+
+}
+
+/* DESIGN ONE: ANIMATION */
+
+.design-one-animation {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background-image: url(/assets/img/design-1-bg.png);
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    animation: white-hover 7s infinite;
+    
+}
+
+.navigation-animation-design1 {
+    gap: 3rem;
+    margin-right: 5rem;
+    
+}
+
+.navigation-content-animation {
+    padding: 1rem 1rem;
+    right: 1rem;
+}
+
+.navigation-content-animation:hover {
+    background: black;
+}
+
+.navigation-animation-design1, .navigation-content-animation {
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+@keyframes white-hover {
+    0% { background-color: transparent; } /* Red */
+    25% { background-color: transparent; } /* Green */
+    50% { background-color: white; } /* Blue */
+    75% { background-color: transparent; } /* Yellow */
+    100% { background-color: transparent; } /* Red */
+}
+
+
+
+.primo-gem-animation {
+        height: 60px;
+        margin-top: 0.6rem;
+        margin-left: 4.9rem;
+        padding: 0 1.4rem;
+        position: relative;
+        animation-name: example;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes example {
+    0% {left: 0px; top: 0px;}
+    25% {left: 1000px; top: 0px;}
+    50% {left: 1000px; top: 0px;}
+    75% {left: 0px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+
+
+
+/* DESIGN TWO: STATIC*/
+
+.design-two {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-2-bg.png);
+    background-size: cover;
+}
+
+.profile {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+        }
+
+.pacman-logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.9rem;
+
+}
+
+.menu-design2 {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 1.3rem;
+ 
+}
+
+.menu-design2, .profile, .gg-menu, .navigation-design2 {
+    color: white;
+}
+
+
+/* DESIGN TWO: ANIMATION */
+
+.design-two-animation {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-2-bg.png);
+    background-size: cover;
+}
+
+.pacman-animation {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 1.9rem;
+
+}
+
+.pacman-logo-animation {
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 1.9rem;
+    transition: animation 10s;
+}
+
+.pacman-logo-animation:focus, .pacman-logo-animation:active {
+    position: relative;
+    animation-name: pacman;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    outline: none;
+}
+
+.profile-animation {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.container-design2 {
+    display: flex;
+    
+}
+
+@keyframes profile-fade {
+    0% { background-color: transparent; } 
+    25% { background-color: black; } 
+    50% { background-color: rgb(0, 0, 0); } 
+    75% { background-color: transparent; } 
+    100% { background-color: transparent; } 
+}
+
+
+@keyframes pacman {
+    0% {left: 0px; top: 0px;}
+    25% {left: 750px; top: 0px;}
+    50% {left: 750px; top: 0px;}
+    75% {left: -750px; top: 0px;}
+    100% {left: -750px; top: 0px;}
+
+    0% {
+        transform: rotate(0);
+      }
+    25% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    75% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-180deg);
+      }
+
+}
+
+
+/* DESIGN THREE : STATIC HEADER */
+
+.design-three {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-3-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.minecraft {
+        height: 60px;
+    }
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search-bar input {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    width: 50rem;
+    height: 2.7rem;
+}
+
+.gg-profile, .gg-shopping-cart {
+    color: white;
+}
+
+
+/* DESIGN THREE: ANIMATED HEADER */
+
+.design-three-animation {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-3-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.minecraft-logo {
+        height: 60px;
+    }
+
+.minecraft-logo:hover {
+    animation: minecraft linear 2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes minecraft {
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search-bar-animation {
+   display: flex;
+   background: #2f3640;
+   height: 60px;
+   border-radius: 40px;
+   padding: 10px;
+}
+
+.search-bar-animation:hover > .search-input {
+    width: 50rem;
+    padding: 0 6px;
+}
+
+.search-bar-animation:hover > .search-button {
+    background: white;
+    color: #2f3640;
+}
+
+.search-button {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+@media screen and (max-width: 620px) {
+    .search-bar-animation:hover > .search-input {
+        width: 150px;
+        padding: 0 6px;
+    }
+}
+
+.gg-profile, .gg-shopping-cart {
+    color: white;
+}
+
+
+/* DESIGN FOUR: STATIC */
+
+.design-four {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-4-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.roblox {
+        height: 70px;
+    }
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gg-profile, .gg-bell {
+    color: white;
+}
+
+.navigation-design4 {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 3.9em;
+    transition: all 0.3s ease-out;
+}
+
+
+
+/* DESIGN FOUR: ANIMATION */
+
+.design-four-animation {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-4-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.roblox-animation {
+    transition: animation 10s; 
+    cursor: pointer;
+    position: relative;
+    height: 70px;
+
+    }
+
+.roblox-animation:hover, .roblox-animation:focus, .roblox-animation:active {
+        animation-name: roblox;
+        animation-direction: alternate-reverse;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        outline: none;
+        animation-fill-mode: forwards
+    }
+@keyframes roblox {
+    0% {left: 0px; top: 0px;}
+    25% {left: 300px; top: 0px;}
+    50% {left: 300px; top: 0px;}
+    75% {left: 300px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+} 
+
+.menu-animation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gg-profile, .gg-bell {
+    color: white;
+}
+
+.navigation-design-four-animation-container {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-design4-animation {
+    padding: 1rem 2rem;
+    box-shadow: inset 0 0 rgb(0, 89, 255);
+    transition: all 0.3s ease-out;
+    
+}
+
+.navigation-design4-animation:hover {
+    box-shadow: inset 12em 0 #fffb0e;
+    color: rgb(0, 0, 0);
+}
+
+
+/* DESIGN FIVE: STATIC */
+.design-five {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw;
+    background-image: url(/assets/img/design-5-bg.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+a, .left-navigation, .navigation-design5 {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    color: white;
+    
+}
+
+.right-navigation {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.league-of-legends {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* DESIGN FIVE: ANIMATION */
+
+.design-five-animation {
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 4vw;
+    background-image: url(/assets/img/design-5-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.league-of-legends-animation {
+    height: 75px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 49rem;
+}
+
+.navigation-content-left {
+    padding: 1rem 1rem;
+}
+
+.navigation-content-left:hover {
+        background: #fff;
+        box-shadow: 0px 2px 20px 10px #97B1BF;
+        color: #000;
+   
+}
+
+
+.design-five-animation:hover .left-navigation-animation {
+    left: 0;
+    opacity: 1;    
+}
+
+.left-navigation-animation {
+    transform: translateY(17%);
+    opacity: 0;
+    transition: all 0.5s ease;
+   
+    
+}
+
+.navigation-design5-animation {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
