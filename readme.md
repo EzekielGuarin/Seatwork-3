@@ -13,8 +13,10 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  <p> A Header and Footer display website with static and animated designs using pure HTML and CSS
+  <p> A Header and Footer display website with static and animated designs using pure HTML and CSS </p>
+  <p> Deployment Link: https://ezekielguarin.github.io/WD-SEATWORK3/ </p>
 </div>
+
 
 <br />
 
