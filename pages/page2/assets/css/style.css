@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: bisque;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    padding: 1rem 5vw;
+    gap: 1rem;
+    text-align: flex-end;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------------------------*/
+
+/* DESIGN ONE: STATIC FOOTER */
+
+.design-one {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 1.9rem 5vw;
+    background: rgb(56,45,224);
+    background: linear-gradient(90deg, rgba(56,45,224,1) 1%, rgba(110,138,235,1) 68%, rgba(166,240,255,1) 100%);
+}
+
+.container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.left-text {
+    display: flex;
+}
+
+.left-text {
+    line-height: 1rem;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 1px;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+.canva-logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+
+.right-text {
+    line-height: 1rem;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 1px;
+    color: white;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* DESIGN ONE: ANIMATED FOOTER */
+
+.canva-logo-animation {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.canva-logo-animation:hover {
+    animation: zoomIn 2s ease-in-out;
+}
+
+/* DESIGN TWO: STATIC FOOTER */
+
+.design-two {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 1rem 5vw;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+.text-design-two {
+    padding: 1rem;
+}
+
+.nav-design-two {
+    color: white;
+    line-height: 2rem;
+    margin: 0 0.6rem;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+
+/* DESIGN TWO: ANIMATED FOOTER */
+
+.nav-design-two-animation {
+    color: white;
+    line-height: 2rem;
+    margin: 0 0.6rem;
+    padding: 0.5rem 0.5rem;
+    box-shadow: inset 0 0 rgb(0, 89, 255);
+    transition: all 0.3s ease-out;
+}
+
+.nav-design-two-animation:hover {
+    box-shadow: inset 12em 0 #fffb0e;
+    color: rgb(0, 0, 0)
+}
+
+
+/* DESIGN THREE: STATIC FOOTER */
+
+.design-three {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    background-color: #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.design-three-container{
+    justify-content: space-between;
+    line-height: 2rem;
+    display: flex;
+}
+
+.column {
+    color: white;
+}
+
+
+
+/* DESIGN THREE: ANIMATED FOOTER */
+
+.design-three-animation {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    background-color: #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.design-three-animation:hover {
+    color: white;
+    transition: all 0.8s ease-in-out;
+
+}
+
+
+/* DESIGN FOUR: STATIC FOOTER */
+
+.design-four {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    background-color: #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    padding: 10px;
+    width: 40rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.design-four button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.news-letter {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+/* DESIGN FOUR: ANIMATED FOOTER */
+
+.search-bar-animation {
+    display: flex;
+    background: #2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+ }
+ 
+ .search-bar-animation:hover > .search-input {
+     width: 40rem;
+     padding: 0 6px;
+ }
+ 
+ .search-bar-animation:hover > .search-button {
+     background: white;
+     color: #2f3640;
+ }
+ 
+ .search-button {
+     color: white;
+     float: right;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background: #2f3640;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.4s;
+ }
+ 
+ .search-input {
+     border: none;
+     background: none;
+     outline: none;
+     float: left;
+     padding: 0;
+     color: white;
+     font-size: 16px;
+     transition: 0.4s;
+     line-height: 40px;
+     width: 0px;
+ }
+ 
+ @media screen and (max-width: 620px) {
+     .search-bar-animation:hover > .search-input {
+         width: 80px;
+         padding: 0 6px;
+     }
+ }
+
+/* DESIGN FIVE: STATIC FOOTER */
+
+.design-five {
+    width: 90vw;
+    display: absolute;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    background-color: #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.all-rights {
+    color: white;
+    line-height: 2.8rem;
+}
+
+.design-five-nav {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+.design-five-nav:hover {
+    text-decoration: underline;
+}
+
+/* DESIGN FIVE: ANIMATED FOOTER */
+
+
+
+
