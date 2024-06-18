@@ -114,4 +114,5 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |ARBUZZ UI KIT | REFERENCES FOR HEADER AND FOOTER DESIGNS |https://in.pinterest.com/pin/251497960434136203/|
+| 50 Blog Footer Design | REFERENCES FOR FOOTER DESIGNS | https://www.canva.com/learn/footer-design/|
 
