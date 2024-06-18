@@ -64,7 +64,8 @@ body {
     font-size: 2rem;
     display: flex;
     text-align: center;
-    color: blue;
+    padding: 0.5rem 0.5rem;
+    background: white;
 }
 /* DESIGN ONE: STATIC */
 
