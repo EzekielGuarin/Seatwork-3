@@ -113,7 +113,7 @@ WD-ProjectName
 ## Resources
 
 | Title | Purpose | Link |
-|ARBUZZ UI KIT | REFERENCES FOR HEADER AND FOOTER DESIGNS |https://in.pinterest.com/pin/251497960434136203/ |
+|-|-|-|
+| ARBUZZ UI KIT | REFERENCES FOR HEADER AND FOOTER DESIGNS | https://in.pinterest.com/pin/251497960434136203/ |
 | 50 Blog Footer Design | REFERENCES FOR FOOTER DESIGNS | https://www.canva.com/learn/footer-design/ |
 | Animted Search Bar | REFERENCES FOR SEARCH BAR | https://youtu.be/PURKqbh6MfI?si=1Tn6Gz7gWYM4ZLMz |
-
